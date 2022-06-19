@@ -93,7 +93,7 @@ function StackedBarChart({ data, keys, colors }) {
       .attr("height", sequence => yScale(sequence[0]) - yScale(sequence[1]))
       .on("mouseover", (event, d) => {
         select(".tooltip")
-        .text("Year: " + d.data.year)
+        .text("Murder: " + d.data.Murder + " Outrage Of Modesty: " + d.data["Outrage Of Modesty"] + " Housebreaking: " + d.data["Housebreaking"] + " Cheating Related Offences: " + d.data["Cheating Related Offences"] + " Rape: " + d.data["Rape"] + " Rioting: " + d.data["Rioting"] + " Robbery: " + d.data["Robbery"] + " Serious Hurt: " + d.data["Serious Hurt"] +  " Snatch Theft: " + d.data["Snatch Theft"] + " Theft Of Motor Vehicle " + d.data["Theft Of Motor Vehicle"])
         .style("position", "absolute")
         .style("background", "#fff")
         .style("left", (event.pageX) + "px")
