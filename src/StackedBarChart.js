@@ -7,7 +7,8 @@ import {
   max,
   scaleLinear,
   axisLeft,
-  stackOrderAscending
+  stackOrderAscending,
+  pointer
 } from "d3";
 import useResizeObserver from "./useResizeObserver";
 
@@ -19,6 +20,34 @@ function StackedBarChart({ data, keys, colors }) {
   const svgRef = useRef();
   const wrapperRef = useRef();
   const dimensions = useResizeObserver(wrapperRef);
+
+  var tooltip = select("#tooltip")
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "1px")
+    .style("border-radius", "5px")
+    .style("padding", "10px")
+
+  var mouseover = function(d) {
+    var subgroupName = select(this.parentNode).datum().key;
+    
+    tooltip
+        .html("subgroup: " + subgroupName)
+        .style("opacity", 1)
+  }
+
+  var mousemove = function(d) {
+    tooltip
+      .style("left", (pointer(this)[0]+90) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
+      .style("top", (pointer(this)[1]) + "px")
+  }
+  var mouseleave = function(d) {
+    tooltip
+      .style("opacity", 0)
+  }
 
   // will be called initially and on every data change
   useEffect(() => {
@@ -61,7 +90,23 @@ function StackedBarChart({ data, keys, colors }) {
       .attr("x", sequence => xScale(sequence.data.year))
       .attr("width", xScale.bandwidth())
       .attr("y", sequence => yScale(sequence[1]))
-      .attr("height", sequence => yScale(sequence[0]) - yScale(sequence[1]));
+      .attr("height", sequence => yScale(sequence[0]) - yScale(sequence[1]))
+      .on("mouseover", (event, d) => {
+        select(".tooltip")
+        .text("Year: " + d.data.year)
+        .style("position", "absolute")
+        .style("background", "#fff")
+        .style("left", (event.pageX) + "px")
+        .style("top", (event.pageY) + "px");
+
+        select(event.currentTarget).classed("selected", true)
+    })
+    .on("mouseout", (event, d) => {
+      select(".tooltip")
+      .text("");
+
+      select(event.currentTarget).classed("selected", false)
+  })
 
     // axes
     const xAxis = axisBottom(xScale);
@@ -76,6 +121,7 @@ function StackedBarChart({ data, keys, colors }) {
 
   return (
     <React.Fragment>
+      <div class="tooltip"></div>
       <div ref={wrapperRef} style={{ marginBottom: "2rem" }}>
         <svg ref={svgRef}>
           <g className="x-axis" />
