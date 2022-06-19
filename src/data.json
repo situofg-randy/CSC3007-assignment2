@@ -1,0 +1,702 @@
+[
+  {
+    "value": "16",
+    "_id": 1,
+    "level_1": "Total",
+    "level_2": "Murder",
+    "year": "2011"
+  },
+  {
+    "value": "406",
+    "_id": 2,
+    "level_1": "Total",
+    "level_2": "Serious Hurt",
+    "year": "2011"
+  },
+  {
+    "value": "150",
+    "_id": 3,
+    "level_1": "Total",
+    "level_2": "Rape",
+    "year": "2011"
+  },
+  {
+    "value": "1396",
+    "_id": 4,
+    "level_1": "Total",
+    "level_2": "Outrage Of Modesty",
+    "year": "2011"
+  },
+  {
+    "value": "172",
+    "_id": 5,
+    "level_1": "Total",
+    "level_2": "Rioting",
+    "year": "2011"
+  },
+  {
+    "value": "394",
+    "_id": 6,
+    "level_1": "Total",
+    "level_2": "Robbery",
+    "year": "2011"
+  },
+  {
+    "value": "637",
+    "_id": 7,
+    "level_1": "Total",
+    "level_2": "Housebreaking",
+    "year": "2011"
+  },
+  {
+    "value": "673",
+    "_id": 8,
+    "level_1": "Total",
+    "level_2": "Theft Of Motor Vehicle",
+    "year": "2011"
+  },
+  {
+    "value": "349",
+    "_id": 9,
+    "level_1": "Total",
+    "level_2": "Snatch Theft",
+    "year": "2011"
+  },
+  {
+    "value": "3819",
+    "_id": 10,
+    "level_1": "Total",
+    "level_2": "Cheating Related Offences",
+    "year": "2011"
+  },
+  {
+    "value": "11",
+    "_id": 11,
+    "level_1": "Total",
+    "level_2": "Murder",
+    "year": "2012"
+  },
+  {
+    "value": "452",
+    "_id": 12,
+    "level_1": "Total",
+    "level_2": "Serious Hurt",
+    "year": "2012"
+  },
+  {
+    "value": "133",
+    "_id": 13,
+    "level_1": "Total",
+    "level_2": "Rape",
+    "year": "2012"
+  },
+  {
+    "value": "1420",
+    "_id": 14,
+    "level_1": "Total",
+    "level_2": "Outrage Of Modesty",
+    "year": "2012"
+  },
+  {
+    "value": "191",
+    "_id": 15,
+    "level_1": "Total",
+    "level_2": "Rioting",
+    "year": "2012"
+  },
+  {
+    "value": "290",
+    "_id": 16,
+    "level_1": "Total",
+    "level_2": "Robbery",
+    "year": "2012"
+  },
+  {
+    "value": "545",
+    "_id": 17,
+    "level_1": "Total",
+    "level_2": "Housebreaking",
+    "year": "2012"
+  },
+  {
+    "value": "586",
+    "_id": 18,
+    "level_1": "Total",
+    "level_2": "Theft Of Motor Vehicle",
+    "year": "2012"
+  },
+  {
+    "value": "286",
+    "_id": 19,
+    "level_1": "Total",
+    "level_2": "Snatch Theft",
+    "year": "2012"
+  },
+  {
+    "value": "3419",
+    "_id": 20,
+    "level_1": "Total",
+    "level_2": "Cheating Related Offences",
+    "year": "2012"
+  },
+  {
+    "value": "16",
+    "_id": 21,
+    "level_1": "Total",
+    "level_2": "Murder",
+    "year": "2013"
+  },
+  {
+    "value": "476",
+    "_id": 22,
+    "level_1": "Total",
+    "level_2": "Serious Hurt",
+    "year": "2013"
+  },
+  {
+    "value": "120",
+    "_id": 23,
+    "level_1": "Total",
+    "level_2": "Rape",
+    "year": "2013"
+  },
+  {
+    "value": "1325",
+    "_id": 24,
+    "level_1": "Total",
+    "level_2": "Outrage Of Modesty",
+    "year": "2013"
+  },
+  {
+    "value": "162",
+    "_id": 25,
+    "level_1": "Total",
+    "level_2": "Rioting",
+    "year": "2013"
+  },
+  {
+    "value": "254",
+    "_id": 26,
+    "level_1": "Total",
+    "level_2": "Robbery",
+    "year": "2013"
+  },
+  {
+    "value": "507",
+    "_id": 27,
+    "level_1": "Total",
+    "level_2": "Housebreaking",
+    "year": "2013"
+  },
+  {
+    "value": "404",
+    "_id": 28,
+    "level_1": "Total",
+    "level_2": "Theft Of Motor Vehicle",
+    "year": "2013"
+  },
+  {
+    "value": "239",
+    "_id": 29,
+    "level_1": "Total",
+    "level_2": "Snatch Theft",
+    "year": "2013"
+  },
+  {
+    "value": "3695",
+    "_id": 30,
+    "level_1": "Total",
+    "level_2": "Cheating Related Offences",
+    "year": "2013"
+  },
+  {
+    "value": "14",
+    "_id": 31,
+    "level_1": "Total",
+    "level_2": "Murder",
+    "year": "2014"
+  },
+  {
+    "value": "513",
+    "_id": 32,
+    "level_1": "Total",
+    "level_2": "Serious Hurt",
+    "year": "2014"
+  },
+  {
+    "value": "164",
+    "_id": 33,
+    "level_1": "Total",
+    "level_2": "Rape",
+    "year": "2014"
+  },
+  {
+    "value": "1372",
+    "_id": 34,
+    "level_1": "Total",
+    "level_2": "Outrage Of Modesty",
+    "year": "2014"
+  },
+  {
+    "value": "168",
+    "_id": 35,
+    "level_1": "Total",
+    "level_2": "Rioting",
+    "year": "2014"
+  },
+  {
+    "value": "230",
+    "_id": 36,
+    "level_1": "Total",
+    "level_2": "Robbery",
+    "year": "2014"
+  },
+  {
+    "value": "311",
+    "_id": 37,
+    "level_1": "Total",
+    "level_2": "Housebreaking",
+    "year": "2014"
+  },
+  {
+    "value": "314",
+    "_id": 38,
+    "level_1": "Total",
+    "level_2": "Theft Of Motor Vehicle",
+    "year": "2014"
+  },
+  {
+    "value": "165",
+    "_id": 39,
+    "level_1": "Total",
+    "level_2": "Snatch Theft",
+    "year": "2014"
+  },
+  {
+    "value": "5465",
+    "_id": 40,
+    "level_1": "Total",
+    "level_2": "Cheating Related Offences",
+    "year": "2014"
+  },
+  {
+    "value": "14",
+    "_id": 41,
+    "level_1": "Total",
+    "level_2": "Murder",
+    "year": "2015"
+  },
+  {
+    "value": "473",
+    "_id": 42,
+    "level_1": "Total",
+    "level_2": "Serious Hurt",
+    "year": "2015"
+  },
+  {
+    "value": "162",
+    "_id": 43,
+    "level_1": "Total",
+    "level_2": "Rape",
+    "year": "2015"
+  },
+  {
+    "value": "1294",
+    "_id": 44,
+    "level_1": "Total",
+    "level_2": "Outrage Of Modesty",
+    "year": "2015"
+  },
+  {
+    "value": "114",
+    "_id": 45,
+    "level_1": "Total",
+    "level_2": "Rioting",
+    "year": "2015"
+  },
+  {
+    "value": "123",
+    "_id": 46,
+    "level_1": "Total",
+    "level_2": "Robbery",
+    "year": "2015"
+  },
+  {
+    "value": "250",
+    "_id": 47,
+    "level_1": "Total",
+    "level_2": "Housebreaking",
+    "year": "2015"
+  },
+  {
+    "value": "302",
+    "_id": 48,
+    "level_1": "Total",
+    "level_2": "Theft Of Motor Vehicle",
+    "year": "2015"
+  },
+  {
+    "value": "84",
+    "_id": 49,
+    "level_1": "Total",
+    "level_2": "Snatch Theft",
+    "year": "2015"
+  },
+  {
+    "value": "8242",
+    "_id": 50,
+    "level_1": "Total",
+    "level_2": "Cheating Related Offences",
+    "year": "2015"
+  },
+  {
+    "value": "18",
+    "_id": 51,
+    "level_1": "Total",
+    "level_2": "Murder",
+    "year": "2016"
+  },
+  {
+    "value": "492",
+    "_id": 52,
+    "level_1": "Total",
+    "level_2": "Serious Hurt",
+    "year": "2016"
+  },
+  {
+    "value": "149",
+    "_id": 53,
+    "level_1": "Total",
+    "level_2": "Rape",
+    "year": "2016"
+  },
+  {
+    "value": "1282",
+    "_id": 54,
+    "level_1": "Total",
+    "level_2": "Outrage Of Modesty",
+    "year": "2016"
+  },
+  {
+    "value": "112",
+    "_id": 55,
+    "level_1": "Total",
+    "level_2": "Rioting",
+    "year": "2016"
+  },
+  {
+    "value": "96",
+    "_id": 56,
+    "level_1": "Total",
+    "level_2": "Robbery",
+    "year": "2016"
+  },
+  {
+    "value": "212",
+    "_id": 57,
+    "level_1": "Total",
+    "level_2": "Housebreaking",
+    "year": "2016"
+  },
+  {
+    "value": "165",
+    "_id": 58,
+    "level_1": "Total",
+    "level_2": "Theft Of Motor Vehicle",
+    "year": "2016"
+  },
+  {
+    "value": "63",
+    "_id": 59,
+    "level_1": "Total",
+    "level_2": "Snatch Theft",
+    "year": "2016"
+  },
+  {
+    "value": "8268",
+    "_id": 60,
+    "level_1": "Total",
+    "level_2": "Cheating Related Offences",
+    "year": "2016"
+  },
+  {
+    "value": "8",
+    "_id": 61,
+    "level_1": "Total",
+    "level_2": "Murder",
+    "year": "2017"
+  },
+  {
+    "value": "420",
+    "_id": 62,
+    "level_1": "Total",
+    "level_2": "Serious Hurt",
+    "year": "2017"
+  },
+  {
+    "value": "185",
+    "_id": 63,
+    "level_1": "Total",
+    "level_2": "Rape",
+    "year": "2017"
+  },
+  {
+    "value": "1561",
+    "_id": 64,
+    "level_1": "Total",
+    "level_2": "Outrage Of Modesty",
+    "year": "2017"
+  },
+  {
+    "value": "103",
+    "_id": 65,
+    "level_1": "Total",
+    "level_2": "Rioting",
+    "year": "2017"
+  },
+  {
+    "value": "69",
+    "_id": 66,
+    "level_1": "Total",
+    "level_2": "Robbery",
+    "year": "2017"
+  },
+  {
+    "value": "160",
+    "_id": 67,
+    "level_1": "Total",
+    "level_2": "Housebreaking",
+    "year": "2017"
+  },
+  {
+    "value": "143",
+    "_id": 68,
+    "level_1": "Total",
+    "level_2": "Theft Of Motor Vehicle",
+    "year": "2017"
+  },
+  {
+    "value": "49",
+    "_id": 69,
+    "level_1": "Total",
+    "level_2": "Snatch Theft",
+    "year": "2017"
+  },
+  {
+    "value": "8364",
+    "_id": 70,
+    "level_1": "Total",
+    "level_2": "Cheating Related Offences",
+    "year": "2017"
+  },
+  {
+    "value": "9",
+    "_id": 71,
+    "level_1": "Total",
+    "level_2": "Murder",
+    "year": "2018"
+  },
+  {
+    "value": "429",
+    "_id": 72,
+    "level_1": "Total",
+    "level_2": "Serious Hurt",
+    "year": "2018"
+  },
+  {
+    "value": "213",
+    "_id": 73,
+    "level_1": "Total",
+    "level_2": "Rape",
+    "year": "2018"
+  },
+  {
+    "value": "1728",
+    "_id": 74,
+    "level_1": "Total",
+    "level_2": "Outrage Of Modesty",
+    "year": "2018"
+  },
+  {
+    "value": "107",
+    "_id": 75,
+    "level_1": "Total",
+    "level_2": "Rioting",
+    "year": "2018"
+  },
+  {
+    "value": "72",
+    "_id": 76,
+    "level_1": "Total",
+    "level_2": "Robbery",
+    "year": "2018"
+  },
+  {
+    "value": "204",
+    "_id": 77,
+    "level_1": "Total",
+    "level_2": "Housebreaking",
+    "year": "2018"
+  },
+  {
+    "value": "114",
+    "_id": 78,
+    "level_1": "Total",
+    "level_2": "Theft Of Motor Vehicle",
+    "year": "2018"
+  },
+  {
+    "value": "48",
+    "_id": 79,
+    "level_1": "Total",
+    "level_2": "Snatch Theft",
+    "year": "2018"
+  },
+  {
+    "value": "9193",
+    "_id": 80,
+    "level_1": "Total",
+    "level_2": "Cheating Related Offences",
+    "year": "2018"
+  },
+  {
+    "value": "11",
+    "_id": 81,
+    "level_1": "Total",
+    "level_2": "Murder",
+    "year": "2019"
+  },
+  {
+    "value": "373",
+    "_id": 82,
+    "level_1": "Total",
+    "level_2": "Serious Hurt",
+    "year": "2019"
+  },
+  {
+    "value": "281",
+    "_id": 83,
+    "level_1": "Total",
+    "level_2": "Rape",
+    "year": "2019"
+  },
+  {
+    "value": "1605",
+    "_id": 84,
+    "level_1": "Total",
+    "level_2": "Outrage Of Modesty",
+    "year": "2019"
+  },
+  {
+    "value": "94",
+    "_id": 85,
+    "level_1": "Total",
+    "level_2": "Rioting",
+    "year": "2019"
+  },
+  {
+    "value": "55",
+    "_id": 86,
+    "level_1": "Total",
+    "level_2": "Robbery",
+    "year": "2019"
+  },
+  {
+    "value": "186",
+    "_id": 87,
+    "level_1": "Total",
+    "level_2": "Housebreaking",
+    "year": "2019"
+  },
+  {
+    "value": "85",
+    "_id": 88,
+    "level_1": "Total",
+    "level_2": "Theft Of Motor Vehicle",
+    "year": "2019"
+  },
+  {
+    "value": "35",
+    "_id": 89,
+    "level_1": "Total",
+    "level_2": "Snatch Theft",
+    "year": "2019"
+  },
+  {
+    "value": "12363",
+    "_id": 90,
+    "level_1": "Total",
+    "level_2": "Cheating Related Offences",
+    "year": "2019"
+  },
+  {
+    "value": "8",
+    "_id": 91,
+    "level_1": "Total",
+    "level_2": "Murder",
+    "year": "2020"
+  },
+  {
+    "value": "445",
+    "_id": 92,
+    "level_1": "Total",
+    "level_2": "Serious Hurt",
+    "year": "2020"
+  },
+  {
+    "value": "348",
+    "_id": 93,
+    "level_1": "Total",
+    "level_2": "Rape",
+    "year": "2020"
+  },
+  {
+    "value": "1320",
+    "_id": 94,
+    "level_1": "Total",
+    "level_2": "Outrage Of Modesty",
+    "year": "2020"
+  },
+  {
+    "value": "59",
+    "_id": 95,
+    "level_1": "Total",
+    "level_2": "Rioting",
+    "year": "2020"
+  },
+  {
+    "value": "37",
+    "_id": 96,
+    "level_1": "Total",
+    "level_2": "Robbery",
+    "year": "2020"
+  },
+  {
+    "value": "164",
+    "_id": 97,
+    "level_1": "Total",
+    "level_2": "Housebreaking",
+    "year": "2020"
+  },
+  {
+    "value": "60",
+    "_id": 98,
+    "level_1": "Total",
+    "level_2": "Theft Of Motor Vehicle",
+    "year": "2020"
+  },
+  {
+    "value": "18",
+    "_id": 99,
+    "level_1": "Total",
+    "level_2": "Snatch Theft",
+    "year": "2020"
+  },
+  {
+    "value": "16523",
+    "_id": 100,
+    "level_1": "Total",
+    "level_2": "Cheating Related Offences",
+    "year": "2020"
+  }
+]
